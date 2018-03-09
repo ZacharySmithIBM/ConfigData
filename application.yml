@@ -2,12 +2,7 @@ eureka:
     client:
         serviceUrl:
             defaultZone: http://localhost:8010/eureka/
-   
----   
-spring:
-  profiles: sentence
-words: NotApplicable
-    
+
 ---
 spring:
   profiles: subject
